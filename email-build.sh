@@ -22,10 +22,10 @@ sleep 1
 echo ""
 echo "Your branch name: ${BRANCH_NAME}"
 echo "From repo:        ${REPOSITORY_NAME}"
-echo "%teamcity.build.triggeredBy%"
-
+echo "Build triggered by:  %teamcity.build.triggeredBy%"
+#echo ""
+echo "Test IP address:   http://%SERVER_IP_ADDRESS%"
 echo "."
-
 sleep 2
 
 echo "exit"
